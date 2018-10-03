@@ -5,5 +5,134 @@
     <title>Фотографии</title>
   </head>
   <body>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="http://placehold.it/75x22" width="75" height="22" alt="Приложение PINK">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="index.html">Главная</a>
+            </li>
+            <li class="site-list__item site-list__item--active">
+              <a>Фотографии</a>
+            </li>
+            <li class="site-list__item">
+              <a href="photo.html">Конкурс</a>
+            </li>
+            <li class="site-list__item">
+              <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <div class="background">
+        <h2 class="background__caption">Фотографии пользователей</h2>
+      </div>
+      <p class="photo-paragaph">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+      <section class="photos">
+        <ul class="photos__list">
+          <li class="photos__item">
+            <span class="photos__hit">Панорма дня</span>
+            <img class="photos__image" src="http://placehold.it/320x137" width="320" height="137" alt="Панорамное фото">
+            <blockquote class="photos__cite cite">
+              <p class="cite__author">Анна <span class="cite__time">(5 минут назад)</span></p>
+              <p class="cite__text">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+              <p class="cite__likes"><span class="cite__likes-image"></span>Нравится: 215</p>
+            </blockquote>
+          </li>
+          <li class="photos__item">
+            <img class="photos__image" src="http://placehold.it/280x180" width="280" height="180" alt="Фото автомобиля">
+            <blockquote class="photos__cite cite">
+              <p class="cite__author">Левон <span class="cite__time">(5 часов назад)</span></p>
+              <p class="cite__text"> Вчера он на луну летал, сегодня в руки к нам попал.</p>
+              <p class="cite__likes"><span class="cite__likes-image"></span>Нравится: 315</p>
+            </blockquote>
+          </li>
+          <li class="photos__item">
+            <img class="photos__image" src="http://placehold.it/280x180" width="280" height="180" alt="Барабаны">
+            <blockquote class="photos__cite cite">
+              <p class="cite__author">Антон <span class="cite__time">(12 часов назад)</span></p>
+              <p class="cite__text"> Соседи будут рады!</p>
+              <p class="cite__likes"><span class="cite__likes-image"></span>Нравится: 666</p>
+            </blockquote>
+          </li>
+          <li class="photos__item">
+            <img class="photos__image" src="http://placehold.it/280x180" width="280" height="180" alt="Фото неба через стеклянный потолок">
+            <blockquote class="photos__cite cite">
+              <p class="cite__author">Борис <span class="cite__time">(20 часов назад)</span></p>
+              <p class="cite__text">Здесь могла быть ваша цитата о высоком и вечном.</p>
+              <p class="cite__likes"><span class="cite__likes-image"></span>Нравится: 215</p>
+            </blockquote>
+          </li>
+          <li class="photos__item">
+            <img class="photos__image" src="http://placehold.it/280x180" width="280" height="180" alt="Фото ярморки">
+            <blockquote class="photos__cite cite">
+              <p class="cite__author">Сергей <span class="cite__time">(25 часов назад)</span></p>
+              <p class="cite__text">Самая кубанская в мире!</p>
+              <p class="cite__likes"><span class="cite__likes-image"></span>Нравится: 4</p>
+            </blockquote>
+          </li>
+          <li class="photos__item">
+            <img class="photos__image" src="http://placehold.it/280x180" width="280" height="180" alt="Фото в горах">
+            <blockquote class="photos__cite cite">
+              <p class="cite__author">Максим <span class="cite__time">(40 часов назад)</span></p>
+              <p class="cite__text">Где снег-то?</p>
+              <p class="cite__likes"><span class="cite__likes-image"></span>Нравится: 150</p>
+            </blockquote>
+          </li>
+          <li class="photos__item">
+            <img class="photos__image" src="http://placehold.it/280x180" width="280" height="180" alt="Фото крыла самолета в небе">
+            <blockquote class="photos__cite cite">
+              <p class="cite__author">Надежа <span class="cite__time">(45 часов назад)</span></p>
+              <p class="cite__text">Всем GM и взаимные лайки!</p>
+              <p class="cite__likes"><span class="cite__likes-image"></span>Нравится: 2560</p>
+            </blockquote>
+          </li>
+        </ul>
+      </section>
+      <section class="photo-form">
+        <img class="photo-form__image" src="http://placehold.it/280x374" width="280" height="374" alt="Фото заснеженной дороги в лесу">
+        <div class="photo-form__tools tools">
+          <ul class="tools__list">
+            <li class="tools__item">
+              <img class="tools__crop" src="http://placehold.it/44x44" width="44" height="44">
+            </li>
+            <li class="tools__item">
+              <img class="tools__fill" src="http://placehold.it/48x43" width="48" height="43">
+            </li>
+            <li class="tools__item">
+                <img class="tools__contrast" src="http://placehold.it/32x32" width="32" height="32">
+            </li>
+          </ul>
+          <div class="tools__scale scale">
+            <span class="scale__button"></span>
+          </div>
+          <button class="photos__post" type="button">Запостить</button>
+          <button class="photos__cancel" type="button">Отмена</button>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer photos-footer">
+      <a class="photos-footer__logo" href="#">
+        <img class="photos-footer__logo-image" src="http://placehold.it/147x40" width="147" height="40" alt="Логотип PINK">
+      </a>
+      <div class="page-footer__social social">
+        <a class="social__twitter"></a>
+        <a class="social__faceboock"></a>
+        <a class="social__youtube"></a>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <p class="copyright__text">Разработанно
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <img class="copyright__image" src="http://placehold.it/27x34" width="27" height="34">
+          </a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
