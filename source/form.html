@@ -35,8 +35,8 @@
       </div>
       <section class="competiton">
         <p class="competition__description">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
-        <form class="competition__form page-form">
-          <fieldset class="page-form__field full-name">
+        <form class="competition__form page-form" action="https://echo.htmlacademy.ru" method="GET">
+          <fieldset class="page-form__fieldset full-name">
             <legend class="page-form__legend visually-hidden">Представьтесь</legend>
             <ul class="full-name__list">
               <li class="full-name__item">
@@ -53,36 +53,36 @@
                 </li>
             </ul>
           </fieldset>
-          <fieldset class="page-form__field achivments">
+          <fieldset class="page-form__fieldset achievement">
             <legend class="page-form__legend">Ваши безбашенные достижения в путешествии</legend>
-            <ul class="achivments__list">
-              <li class="achivments__item">
-                <input type="checkbox" id="selfie" name="achivments" checked>
+            <ul class="achievement__list">
+              <li class="achievement__item">
+                <input type="checkbox" id="selfie" name="achievement" checked>
                 <label for="selfie">Сделал селфи с акулой</label>
               </li>
-              <li class="achivments__item">
-                <input type="checkbox" id="burn" name="achivments" checked>
+              <li class="achievement__item">
+                <input type="checkbox" id="burn" name="achievement" checked>
                 <label for="burn">Обгорел на пляже</label>
               </li>
-              <li class="achivments__item">
-                <input type="checkbox" id="chuck" name="achivments">
+              <li class="achievement__item">
+                <input type="checkbox" id="chuck" name="achievement">
                 <label for="chuck">Видел Чака Норриса</label>
               </li>
-              <li class="achivments__item">
-                <input type="checkbox" id="souvenir" name="achivments">
+              <li class="achievement__item">
+                <input type="checkbox" id="souvenir" name="achievement">
                 <label for="souvenir">Накупил сувениров</label>
               </li>
-              <li class="achivments__item">
-                <input type="checkbox" id="tower" name="achivments">
+              <li class="achievement__item">
+                <input type="checkbox" id="tower" name="achievement">
                 <label for="tower">Удержал башню</label>
               </li>
-              <li class="achivments__item">
-                <input type="checkbox" id="destruction" name="achivments" checked>
+              <li class="achievement__item">
+                <input type="checkbox" id="destruction" name="achievement" checked>
                 <label for="destruction">Разгромил отель</label>
               </li>
             </ul>
           </fieldset>
-          <fieldset class="page-form__field contacts">
+          <fieldset class="page-form__fieldset contacts">
             <legend class="page-form__legend visually-hidden">Ваши контакты</legend>
             <ul class="contacts__list">
               <li class="contacts__item">
@@ -95,7 +95,7 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset class="page-form__field device">
+          <fieldset class="page-form__fieldset device">
             <legend class="page-form__legend">С каким приложением путешествовали?</legend>
             <ul class="device__list">
               <li class="device__item">
@@ -112,11 +112,11 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset class="page-form__field emotions">
+          <fieldset class="page-form__fieldset emotions">
             <label for="emotions-textarea" class="page-form__legend">Опишите свои эмоции</label>
             <textarea id="emotions-textarea" name="reviews">Можно прям в красках, не стесняясь в выражениях</textarea>
           </fieldset>
-          <button class="competiton__button" type="submit">Отправить форму</button>
+          <button class="page-form__button" type="submit">Отправить форму</button>
           <p class="competition__required-fields"><span class="competition__required">*</span> — обязательные поля</p>
         </form>
       </section>
@@ -126,9 +126,9 @@
         <img class="page-footer__logo-image" src="http://placehold.it/147x40" width="147" height="40" alt="Логотип PINK">
       </a>
       <div class="page-footer__social social">
-        <a class="social__twitter"></a>
-        <a class="social__faceboock"></a>
-        <a class="social__youtube"></a>
+        <a class="social__button social__button--twitter" href="#"></a>
+        <a class="social__button social__button--facebook" href="#"></a>
+        <a class="social__button social__button--youtube" href="#"></a>
       </div>
       <div class="page-footer__copyright copyright">
         <p class="copyright__text">Разработанно
