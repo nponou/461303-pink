@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Конкурс</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="http://placehold.it/75x22" width="75" height="22" alt="Приложение PINK">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="index.html">Главная</a>
+            </li>
+            <li class="site-list__item site-list__item--active">
+              <a href="photo.html">Фотографии</a>
+            </li>
+            <li class="site-list__item">
+              <a>Конкурс</a>
+            </li>
+            <li class="site-list__item">
+              <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <div class="background">
+        <h2 class="background__caption">Конкурс на самое безбашенное путешествие с Пинк</h2>
+      </div>
+      <section class="competiton">
+        <p class="competition__description">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
+        <form class="competition__form page-form" action="https://echo.htmlacademy.ru" method="GET">
+          <fieldset class="page-form__fieldset full-name">
+            <legend class="page-form__legend visually-hidden">Представьтесь</legend>
+            <ul class="full-name__list">
+              <li class="full-name__item">
+                <label for="surname">Фамилия</label>
+                <input id="surname" type="text" name="full-name" placeholder="Укажите фамилию *" required>
+              </li>
+              <li class="full-name__item">
+                <label for="name">Имя</label>
+                <input id="name" type="text" name="full-name" placeholder="Введите ваше имя *" required>
+              </li>
+              <li class="full-name__item">
+                  <label for="middle-name">Отчество</label>
+                  <input id="middle-name" type="text" name="full-name" placeholder="Ну и отчество тоже">
+                </li>
+            </ul>
+          </fieldset>
+          <fieldset class="page-form__fieldset achievement">
+            <legend class="page-form__legend">Ваши безбашенные достижения в путешествии</legend>
+            <ul class="achievement__list">
+              <li class="achievement__item">
+                <input type="checkbox" id="selfie" name="achievement" checked>
+                <label for="selfie">Сделал селфи с акулой</label>
+              </li>
+              <li class="achievement__item">
+                <input type="checkbox" id="burn" name="achievement" checked>
+                <label for="burn">Обгорел на пляже</label>
+              </li>
+              <li class="achievement__item">
+                <input type="checkbox" id="chuck" name="achievement">
+                <label for="chuck">Видел Чака Норриса</label>
+              </li>
+              <li class="achievement__item">
+                <input type="checkbox" id="souvenir" name="achievement">
+                <label for="souvenir">Накупил сувениров</label>
+              </li>
+              <li class="achievement__item">
+                <input type="checkbox" id="tower" name="achievement">
+                <label for="tower">Удержал башню</label>
+              </li>
+              <li class="achievement__item">
+                <input type="checkbox" id="destruction" name="achievement" checked>
+                <label for="destruction">Разгромил отель</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="page-form__fieldset contacts">
+            <legend class="page-form__legend visually-hidden">Ваши контакты</legend>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <label for="phone">Номер телефона</label>
+                <input id="phone" name="contacts" type="tel" placeholder="Номер телефона">
+              </li>
+              <li class="contacts__item">
+                <label for="user-mail">Адрес почты</label>
+                <input id="user-mail" name="contacts" type="email" placeholder="Введите почту *">
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="page-form__fieldset device">
+            <legend class="page-form__legend">С каким приложением путешествовали?</legend>
+            <ul class="device__list">
+              <li class="device__item">
+                <input type="radio" id="iOS" name="device" checked>
+                <label for="iOS">Pink для iOS</label>
+              </li>
+              <li class="device__item">
+                <input type="radio" id="android" name="device">
+                <label for="android">Pink на Android</label>
+              </li>
+              <li class="device__item">
+                <input type="radio" id="windows" name="device">
+                <label for="windows">Windows Phone</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="page-form__fieldset emotions">
+            <label for="emotions-textarea" class="page-form__legend">Опишите свои эмоции</label>
+            <textarea id="emotions-textarea" name="reviews">Можно прям в красках, не стесняясь в выражениях</textarea>
+          </fieldset>
+          <button class="page-form__button" type="submit">Отправить форму</button>
+          <p class="competition__required-fields"><span class="competition__required">*</span> — обязательные поля</p>
+        </form>
+      </section>
+    </main>
+    <footer class="page-footer form-footer">
+      <a class="page-footer__logo" href="#">
+        <img class="page-footer__logo-image" src="http://placehold.it/147x40" width="147" height="40" alt="Логотип PINK">
+      </a>
+      <div class="page-footer__social social">
+        <a class="social__button social__button--twitter" href="#"></a>
+        <a class="social__button social__button--facebook" href="#"></a>
+        <a class="social__button social__button--youtube" href="#"></a>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <p class="copyright__text">Разработанно
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <img class="copyright__image" src="http://placehold.it/27x34" width="27" height="34" alt="Логотип Академии">
+          </a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
