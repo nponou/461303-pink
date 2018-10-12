@@ -1,0 +1,31 @@
+.achievement__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.achievement__item {
+  padding-bottom: 60px;
+  position: relative;
+  label {
+  font-size: 18px;
+  line-height: 30px;
+  color: $pink-notblack;
+  padding-left: 90px;
+}
+}
+
+.achivement__checkbox {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 22px;
+  top: -4px;
+  border: solid 2px #e5e5e5;
+  background-color: #ffffff;
+}
+
+.achievement__item input[type="checkbox"]:checked + .achivement__checkbox {
+  background: url("../../img/icon-yes.svg") no-repeat center center;
+  background-color: #ffffff;
+}

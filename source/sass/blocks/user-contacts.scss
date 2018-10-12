@@ -1,0 +1,36 @@
+.user-contacts__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-top: 40px;
+}
+
+.user-contacts__item label {
+  line-height: 30px;
+  color: $pink-red;
+  text-transform: uppercase;
+  padding-left: 41px;
+}
+
+.user-contacts__item input {
+  display: block;
+  box-sizing: border-box;
+  border: solid 2px #e5e5e5;
+  margin-bottom: 27px;
+  margin-top: 10px;
+  margin-left: 21px;
+  padding: 20px 81px 19px 23px;
+}
+
+.user-contacts__item input::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 30px;
+  color: $pink-notblack;
+}
+
+
+.user-contacts__item input:-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 30px;
+  color: $pink-notblack;
+}

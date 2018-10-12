@@ -1,0 +1,53 @@
+.blog-post__cite {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: lighten(rgba(128, 128, 128, 0.9), 40%);
+  margin-bottom: 20px;
+}
+
+.blog-post__hit {
+  position: absolute;
+  background-color: $pink-red;
+  top: 0;
+  right: 10px;
+  padding: 7px 21px 6px 20px;
+  color: #ffffff;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: inherit;
+}
+
+.blog-post__author {
+  font-weight: 700;
+  color: $pink-notblack;
+  text-align: left;
+  margin: 0;
+  padding: 0 0 0 35px ;
+}
+
+.blog-post__time {
+  font-weight: 300;
+}
+
+.blog-post__text{
+  margin: 0;
+  color: $pink-notblack;
+  padding: 0 40px 0 37px;
+  text-align: left;
+}
+
+.blog-post__likes {
+  margin: 0;
+  color: $pink-red;
+  padding-left: 40px;
+}
+
+.blog-post__likes-image {
+  display: inline-block;
+  background-image: url("../../img/icon-heart.svg");
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 12px;
+  padding-left: 19px;
+}

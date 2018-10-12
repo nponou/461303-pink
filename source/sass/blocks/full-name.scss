@@ -1,0 +1,35 @@
+.full-name__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.full-name__item label {
+  color: $pink-red;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding: 0 0 0 43px;
+}
+
+.full-name__item input {
+  display: block;
+  box-sizing: border-box;
+  border: solid 2px #e5e5e5;
+  margin-bottom: 27px;
+  margin-top: 10px;
+  margin-left: 21px;
+  padding: 20px 81px 19px 23px;
+}
+
+.full-name__item input::-webkit-input-placeholder {
+  color: $pink-notblack;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+
+.full-name__item input:-ms-input-placeholder {
+  color: $pink-notblack;
+  font-size: 18px;
+  line-height: 30px;
+}
