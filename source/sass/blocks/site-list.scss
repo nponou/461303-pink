@@ -15,11 +15,13 @@
   text-transform: uppercase;
   background-color: rgb(0, 0, 0);
   padding: 18px 88px 18px 88px;
-  &:hover,
-  &:focus {
-    color: #d22856;
+
+    &:hover,
+    &:focus {
+      color: #d22856;
   };
-  &:active {
-    color: rgba(0, 0, 0, 0.3)
-  };
+
+    &:active {
+      color: rgba(0, 0, 0, 0.3);
+  }
 }
