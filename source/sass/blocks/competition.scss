@@ -1,0 +1,21 @@
+.competition__description {
+  margin: 0;
+  color: $notblack;
+  line-height: 30px;
+  text-align: center;
+  padding: 40px 23px;
+}
+
+.competition__required-fields {
+  margin: 0;
+  margin-left: 30px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  line-height: 30px;
+  text-align: center;
+  color: $notblack;
+}
+
+.competition__required {
+  color: $red;
+}

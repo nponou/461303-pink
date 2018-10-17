@@ -1,0 +1,26 @@
+.contacts__text {
+  color: $notblack;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.contacts__phone,
+.contacts__mail,
+.contacts__address {
+  display: block;
+  box-sizing: border-box;
+  color: $red;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 22px;
+}

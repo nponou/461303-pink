@@ -1,0 +1,12 @@
+.photo-paragraph {
+  font-size: 14px;
+  line-height: 30px;
+  color: $notblack;
+  text-align: center;
+  margin: 0;
+  padding: 20px 38px 97px;
+
+  &:last-child {
+    padding-bottom: 44px;
+  }
+}

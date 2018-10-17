@@ -1,0 +1,25 @@
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social__button {
+  width: 46px;
+  height: 46px;
+  border: solid 3px lighten($notblack, 70);
+  border-radius: 50% / 50%;
+  margin-right: 17px;
+  margin-top: 43px;
+}
+
+.social__button--twitter {
+  background: url("../../img/icon-twitter.svg") no-repeat center center;
+}
+
+.social__button--facebook {
+  background: url("../../img/icon-facebook.svg") no-repeat center center;
+}
+
+.social__button--youtube {
+  background: url("../../img/icon-youtube.svg") no-repeat center center;
+}

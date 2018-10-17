@@ -1,0 +1,32 @@
+.device__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.device__item {
+  padding-bottom: 56px;
+  position: relative;
+
+  label {
+    font-size: 18px;
+    line-height: 30px;
+    color: $notblack;
+    padding-left: 90px;
+  }
+}
+
+.device__radio {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 22px;
+  top: -4px;
+  border: solid 2px #e5e5e5;
+  border-radius: 50% / 50%;
+  background-color: #ffffff;
+}
+
+.device__item input[type="radio"]:checked + .device__radio {
+  background: url("../../img/icon-map-marker.svg") no-repeat center center;
+}
