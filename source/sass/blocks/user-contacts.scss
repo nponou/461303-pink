@@ -7,7 +7,7 @@
 
 .user-contacts__item label {
   line-height: 30px;
-  color: $pink-red;
+  color: $red;
   text-transform: uppercase;
   padding-left: 41px;
 }
@@ -25,12 +25,12 @@
 .user-contacts__item input::-webkit-input-placeholder {
   font-size: 18px;
   line-height: 30px;
-  color: $pink-notblack;
+  color: $notblack;
 }
 
 
 .user-contacts__item input:-ms-input-placeholder {
   font-size: 18px;
   line-height: 30px;
-  color: $pink-notblack;
+  color: $notblack;
 }

@@ -5,7 +5,7 @@
 }
 
 .full-name__item label {
-  color: $pink-red;
+  color: $red;
   line-height: 30px;
   text-transform: uppercase;
   padding: 0 0 0 43px;
@@ -22,14 +22,14 @@
 }
 
 .full-name__item input::-webkit-input-placeholder {
-  color: $pink-notblack;
+  color: $notblack;
   font-size: 18px;
   line-height: 30px;
 }
 
 
 .full-name__item input:-ms-input-placeholder {
-  color: $pink-notblack;
+  color: $notblack;
   font-size: 18px;
   line-height: 30px;
 }
